@@ -3,7 +3,7 @@ function init(){
 
   function showMeText(){
   	var textbox = document.getElementById('entryinput');
-  	document.getElementById('textoutput').innerHTML = textbox.value;
+  	document.getElementById('textoutput').innerHTML =textbox.value;
   	alert("Michal Pruszynski: " + textbox.value);
   }
 
