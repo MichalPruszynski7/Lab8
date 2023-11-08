@@ -7,7 +7,7 @@ function init(){
   	alert("Michal Pruszynski: " + textbox.value);
   }
 
-  buttom.addEventListerner('click', showMeText);
+  button.addEventListerner('click', showMeText);
   }
-  
+
 window.addEventListener('load', init);
